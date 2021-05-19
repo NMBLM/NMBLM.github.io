@@ -62,7 +62,7 @@ content:
         # link_text: Project Website
         additional_links:
           - title:  
-            icon: images/Icon.png
+            icon: fas fa-shoe-prints
             url: https://web.tecnico.ulisboa.pt/ist193985/MDJMOJO/index1.html
         quote: >
           Project for Game Development Methodology course. First project I did in unity with a group of 3 other programmers.

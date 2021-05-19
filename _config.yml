@@ -48,16 +48,16 @@ linkedin_username: nmblm
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Nuno and I'm an aspiring Game Developer. I have
+  Hi, my name's Nuno and I'm an aspiring Game Developer.
 
-  I am most skilled in: <mark>Unity</mark> and <mark>Python</mark>
+  I am most skilled in: <mark>Unity</mark>, <mark>Python</mark> and <mark>Throwing Games</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: "Hybrid" a coop Game
+        title: Hybrid a coop Game
         link: https://web.tecnico.ulisboa.pt/ist193985/MDJMOJO/index1.html
         # link_text: Project Website
         additional_links:
@@ -80,6 +80,7 @@ content:
           Project for the course Computer Graphics for Games. 
         description: | # this will include new lines to allow paragraphs
           In this course we learnt about game engine software development. From rendering to character animation and physics. In this project we developed a version of a game engine with open-gl with our own math library. We implemented Bloom and SSAO(Screen space ambient occlusion). They are Cyber Noodles because in the beginning we wanted to created a cyberpunk noodle shop.
+          
           ![cybernoodles](/images/cybernoodles.jpg "Cybernoodles")
           
       - layout: top-middle
@@ -152,7 +153,8 @@ content:
       - Gaming
       - Reading (webtoons and mangas mostly)
 
-      This was me participating in MOJO our University's way to showcase student Game related projects
+      This was me participating in MOJO our University's way to showcase student Game related projects:
+      
       ![MOJO](/images/mojo.jpg "MOJO")
 
 # Footer

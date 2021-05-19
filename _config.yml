@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Nuno Martins
+#Title: 
+email: nunomblm.1997@gmail.com
+website: https://nmblm.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: 
+github_username:  nmblm
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+linkedin_username: nmblm
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +48,112 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Nuno and I'm an aspiring Game Developer. I have
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Unity</mark> and <mark>Python</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: "Hybrid" a coop Game
+        link: https://web.tecnico.ulisboa.pt/ist193985/MDJMOJO/index1.html
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+          - title:  
+            icon: images/Icon.png
+            url: https://web.tecnico.ulisboa.pt/ist193985/MDJMOJO/index1.html
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Project for Game Development Methodology course. First project I did in unity with a group of 3 other programmers.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          The course asked us to apply our knowledge to make a game. We decided to make a cooperative assymetrical game where one player is a thief and moves around the map and the other is a hacker that guides the player through the map.
+      - layout: top-middle
+        title: CyberNoodles
+        link: https://github.com/NMBLM/CGJ_Dir
+        # link_text: Project Website
+        additional_links:
+          - title:  
+            icon: fab fa-github
+            url: https://github.com/NMBLM/CGJ_Dir
+        quote: >
+          Project for the course Computer Graphics for Games. 
+        description: | # this will include new lines to allow paragraphs
+          In this course we learnt about game engine software development. From rendering to character animation and physics. In this project we developed a version of a game engine with open-gl with our own math library. We implemented Bloom and SSAO(Screen space ambient occlusion). They are Cyber Noodles because in the beginning we wanted to created a cyberpunk noodle shop.
+          ![cybernoodles](/images/cybernoodles.jpg "Cybernoodles")
+          
+      - layout: top-middle
+        title: I Gotchu Fam!
+        link: https://globalgamejam.org/2019/games/i-gotchu-fam
+        # link_text: Project Website
+        additional_links:
+          - title:  
+            icon: fas fa-globe-europe
+            url: https://globalgamejam.org/2019/games/i-gotchu-fam
+        quote: >
+          First time participating in a Game jam
+        description: | # this will include new lines to allow paragraphs
+          The theme for this game jam was "What home means to you". We created a top down 2D game developed in <bold>Unity</bold> where the player goes around looking for his family while escaping ghosts of bad memories.
+          
+      - layout: top-middle
+        title: CyberNoodles
+        link: https://globalgamejam.org/2021/games/lost-snow-6-0
+        # link_text: Project Website
+        additional_links:
+          - title:  
+            icon: fas fa-globe-europe
+            url: https://globalgamejam.org/2021/games/lost-snow-6-0
+        quote: >
+          Game Jam Project during the COVID Times
+        description: | # this will include new lines to allow paragraphs
+          The theme for this game jam was "Lost & Found". We created a 2D platformer developed in <bold>Unity</bold> where the player could switch between an explorer or a penguin and the objective was for the player to guide the penguin home.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: INESC-ID
+        link: inesc-id.pt
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Student Researcher
+        caption: October 2019 - January 2021
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Worked as part of my MSc Thesis
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            Researched Procedural Content Generation applied to Cooperative Games
+            Created a Procedural Level Generator using a Genetic Algorithm that generated levels for Geometry Friends.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Instituto Superior Técnico
+        caption: 2015 - 2018
+        sub_title: BSc Information Systems and Computer Engineering
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Técnico is the largest school of Architecture, Engineering, Science and Technology in Portugal, involving a community of over 10,000 people.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at Técnico I experienced many different hardships such as tight or overlapping deadlines. But it gave me the experience of working with many different people as part of a team and a base knowledge to understand and work in any of the areas related to computer science and engineering.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Instituto Superior Técnico
+        caption: 2018 - 2021
+        sub_title: MSc Information Systems and Computer Engineering
+        quote: >
+          Técnico is the largest school of Architecture, Engineering, Science and Technology in Portugal, involving a community of over 10,000 people.
+        description: | # this will include new lines to allow paragraphs
+          Continued studying in this masters to focus on fields of my own interest. I chose to focus on Artificial Intelligence, Game Development and Game Design. Writing a the thesis taught me skills related to academic research. 
+
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+      Alongside my interests in programming and game development I also enjoy:
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Reading (webtoons and mangas mostly)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      This was me participating in MOJO our University's way to showcase student Game related projects
+      ![MOJO](/images/mojo.jpg "MOJO")
 
 # Footer
 footer_show_references: true

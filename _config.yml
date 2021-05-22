@@ -58,12 +58,12 @@ content:
     content:
       - layout: top-middle
         title: Hybrid a coop Game
-        link: https://web.tecnico.ulisboa.pt/ist193985/MDJMOJO/index1.html
+        link: https://web.tecnico.ulisboa.pt/ist193985/MDJ_Hybrid/
         # link_text: Project Website
         additional_links:
           - title:  
             icon: fas fa-shoe-prints
-            url: https://web.tecnico.ulisboa.pt/ist193985/MDJMOJO/index1.html
+            url: https://web.tecnico.ulisboa.pt/ist193985/MDJ_Hybrid/
         quote: >
           Project for Game Development Methodology course. First project I did in unity with a group of 3 other programmers.
         description: | # this will include new lines to allow paragraphs

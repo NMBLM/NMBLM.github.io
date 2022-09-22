@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Nuno and I'm an aspiring Game Developer.
 
-  I am most skilled in: <mark>Unity</mark>, <mark>Python</mark> and <mark>Throwing Games</mark>
+  I am most skilled in: <mark>Unity</mark>, <mark>JAVA</mark> and <mark>Throwing Games</mark>
 
 content:
   - title: Projects # Title for the section
@@ -123,6 +123,19 @@ content:
         description: | # this will include new lines to allow paragraphs
             Researched Procedural Content Generation applied to Cooperative Games
             Created a Procedural Level Generator using a Genetic Algorithm that generated levels for Geometry Friends.
+            
+      - layout: left
+        title: CGI
+        link: www.cgi.com
+        # link_text: boringcompany.com
+        sub_title: Software Development Intern 
+        caption: February 2022 - 
+        quote: >
+            Worked as a software developer and devops``
+        description: | # this will include new lines to allow paragraphs
+            Worked on a lot of different areas including creating microservices using Spring Boot and , creating Jenkins pipelines, creating deployments for Kubernetes and Openshift
+            Using many different tools such as Elasticsearch, Kafka, Prometheus, Grafana. Development assisted with GIT and agile methodology.
+            
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
